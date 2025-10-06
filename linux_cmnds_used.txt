@@ -13,7 +13,13 @@
 - sudo suricata -c /etc/suricata/suricata.yaml -i enp0s1 (runs Suricata and allows it to analyze network traffic information from the interface enp0s1)
 - cat /var/log/suricata/fast.log (reads the alerts from previous network traffic analyzed) 
 
-#Attack Commands Used
+#Attack Commands Used (from ATTACK MACHINE to TARGET MACHINE) 
 
--
+- ping -c 4 <target_IP> (not an attack but shows connection between machines)
+- nmap -sn <target_IP> (host scan; MAC address request)
+- nmmap -St <target_IP> (full TCP handshake, all 1000 ports)
+- nmap -sS -p 22,80 <target_IP> (stealth SYN scan on ports 22 and 80, SSH and HTTP respecitvely) 
+
+
+
 
