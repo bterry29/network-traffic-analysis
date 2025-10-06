@@ -19,10 +19,18 @@
 <img width="1380" height="419" alt="nmap_target-scan1_wireshark-results" src="https://github.com/user-attachments/assets/7932e123-df8b-431e-9253-4f8db86c1c30" />
 *Figure 2: Nmap scan result from Attack Machine (top) and network traffic capture from Wireshark (bottom)*
 
+
 <img width="293" height="160" alt="nmap_TCP-scan100" src="https://github.com/user-attachments/assets/e6b59ce7-7aae-4bf2-a945-3f2b7ab1def2" />
 <img width="1350" height="643" alt="nmap-TCP-scan1000_wireshark-results" src="https://github.com/user-attachments/assets/937a62f4-45b1-4118-b35c-260eef99117d" />
 <img width="715" height="301" alt="nmap_TCP-scan1000_wireshark-packet-lengths" src="https://github.com/user-attachments/assets/e6dbdf66-e047-441d-a36a-91832f4fbedd" />
-*Figure 3: nmap scan result from Attack Machine (top), network traffic capture from Wireshark (middle) and packet length data (bottom)*
+*Figure 3: nmap scan result from Attack Machine (top), network traffic capture from Wireshark (middle), and packet length data (bottom)*
+
+
+<img width="310" height="97" alt="nmap_stealthy_SYN_scan" src="https://github.com/user-attachments/assets/7efef8d5-b815-4b2c-af8a-1c5a25b807ab" />
+
+<img width="1254" height="373" alt="nmap_stealthy_SYN_scan_wireshark" src="https://github.com/user-attachments/assets/6c1541f2-a533-4fe3-bf45-6d08cb7918e9" />
+*Figure 4: nmap scan result from Attack Machine (top) and network traffic capture from Wireshark (bottom)*
+
 
 ## Week 5-6
 -IN PROGRESS
