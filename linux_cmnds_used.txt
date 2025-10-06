@@ -1,0 +1,19 @@
+# Linux Commands Used
+
+- sudo apt install wireshark
+- sudo apt install tcpdump
+- sudo apt install dumpcap
+- ip addr show
+- ifconfig (network information of macOS)
+- ip route
+- ping -c 4 8.8.8.8 (sends 4 ICMP packets to confirm active machine network traffic capture)
+- sudo apt install -y suricata
+- sudo suricata
+- sudo suricata-update (updates Suricata's ruleset to analyze up-to-date threats) 
+- sudo suricata -c /etc/suricata/suricata.yaml -i enp0s1 (runs Suricata and allows it to analyze network traffic information from the interface enp0s1)
+- cat /var/log/suricata/fast.log (reads the alerts from previous network traffic analyzed) 
+
+#Attack Commands Used
+
+-
+
