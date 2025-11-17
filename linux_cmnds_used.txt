@@ -15,6 +15,7 @@
 - sudo adduser (create new user for testing ssh attacks) 
 - sudo passwd <usermame> (sets password for created user) 
 - sudo apt install -y openssh-server
+- sudo apt install -y apache2
 
 #Attack Commands Used (from ATTACK MACHINE to TARGET MACHINE) 
 
